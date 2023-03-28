@@ -1,4 +1,4 @@
-let userName = 'Gabriel'
+let userName = prompt('Insert your name:');
 
 if (userName == ''){
   console.log('Hello!')
@@ -7,7 +7,7 @@ else{
   console.log(`Hello, ${userName}!`)
 }
 
-let userQuestion = 'Am I going to be rich?'
+let userQuestion = prompt('Insert your question:');
 console.log(userQuestion)
 
 randomNumber = Math.floor(Math.random()*8);
